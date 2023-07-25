@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksame_module_test=self.webpackChunksame_module_test||[]).push([[580,70],{70:(e,s,t)=>{t.r(s);var a=t(261);console.log(a.U.test)},261:(e,s,t)=>{t.d(s,{U:()=>a});const a={test:"dataB"}}}]);
