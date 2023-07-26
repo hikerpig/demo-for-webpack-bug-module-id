@@ -1,7 +1,7 @@
 export const dataA = {
-    test: 'dataA'
+    testA: 'dataA'
 }
 
 export const dataB = {
-    test: 'dataB'
+    testB: 'dataB'
 }
