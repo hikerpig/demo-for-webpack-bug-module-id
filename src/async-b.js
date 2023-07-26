@@ -1,3 +1,3 @@
 import {dataB} from './shared-module';
 
-console.log(dataB.test);
+console.log('here is async-b', dataB.testB);

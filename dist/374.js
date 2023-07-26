@@ -1,1 +1,34 @@
-"use strict";(self.webpackChunksame_module_test=self.webpackChunksame_module_test||[]).push([[374],{374:(e,t,s)=>{s.r(t);var a=s(261);console.log(a.N.test)},261:(e,t,s)=>{s.d(t,{N:()=>a,U:()=>l});const a={test:"dataA"},l={test:"dataB"}}}]);
+"use strict";
+(self["webpackChunksame_module_test"] = self["webpackChunksame_module_test"] || []).push([[374],{
+
+/***/ 374:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _shared_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(261);
+
+
+console.log('here is async-a', _shared_module__WEBPACK_IMPORTED_MODULE_0__/* .dataA */ .N.testA);
+
+
+/***/ }),
+
+/***/ 261:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   N: () => (/* binding */ dataA),
+/* harmony export */   U: () => (/* binding */ dataB)
+/* harmony export */ });
+const dataA = {
+    testA: 'dataA'
+}
+
+const dataB = {
+    testB: 'dataB'
+}
+
+
+/***/ })
+
+}]);
