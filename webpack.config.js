@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      templateContent: '<body>Check the console</body>',
       chunks: ['b', 'a'],
     }),
   ],
